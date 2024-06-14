@@ -1,0 +1,30 @@
+div {
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  width: 100px;
+  height: 110px;
+}
+
+#img-1 {
+  width: 80px;
+  z-index: 1;
+}
+
+#img-2 {
+  width: 75px;
+  margin-left: -65px;
+  z-index: -1;
+}
+
+#img-3 {
+  width: 70px;
+  margin-left: -60px;
+  z-index: -2;
+}
+
+.blackWhite {
+  filter: grayscale(100%);
+}
